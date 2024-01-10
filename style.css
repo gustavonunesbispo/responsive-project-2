@@ -9,9 +9,34 @@
 
 :root {
   font-family: 'Source Serif 4', serif;
+  font-size: 62.5%;
+}
+
+body {
+  color: #A54328;
+  font-size: 1.6rem;
+}
+
+h1, h2{
+font-size: 2.8rem;
+line-height: 3.6rem;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+p, li, strong {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
 }
 
 button {
   font-family: 'Source Serif 4', serif;
-  font-weight: 500;
+  background-color: #A54328;
+  color: white;
+  border: 0;
+  padding: .8rem 1.2rem;
+  border-radius: .6rem;
+  margin-top: 1.8rem;
 }
